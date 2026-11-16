@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "domain": "servicio-asesorias.music.lynxpardelle.com",
+  "pageId": "default",
+  "rootIds": [
+    "site-shell"
+  ],
+  "modalRootIds": [],
+  "seo": {
+    "title": "Asesorías creativas y técnicas | Lynx Pardelle",
+    "description": "Trabaja una duda concreta de un proyecto en marcha. La asesoría parte de lo que ya hiciste para revisar decisiones de producción musical, audio, diseño gráfico, animación o web.",
+    "canonical": "https://servicio-asesorias.music.lynxpardelle.com/",
+    "robots": "index,follow",
+    "openGraph": {
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-servicio-formacion.webp"
+    }
+  }
+}
