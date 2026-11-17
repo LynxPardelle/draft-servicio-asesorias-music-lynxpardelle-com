@@ -7,12 +7,56 @@
   ],
   "modalRootIds": [],
   "seo": {
-    "title": "Asesorías creativas y técnicas | Lynx Pardelle",
-    "description": "Trabaja una duda concreta de un proyecto en marcha. La asesoría parte de lo que ya hiciste para revisar decisiones de producción musical, audio, diseño gráfico, animación o web.",
+    "title": "Asesoría creativa y técnica de audio, diseño y web | Lynx Pardelle",
+    "description": "Revisa una duda específica de producción musical, audio, diseño, animación o web. Prepara una muestra de tu proyecto para explorar soluciones con Lynx Pardelle.",
     "canonical": "https://servicio-asesorias.music.lynxpardelle.com/",
     "robots": "index,follow",
     "openGraph": {
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/servicio-asesorias-r2-1a60d07eca1f1f32.webp",
+      "title": "Asesoría creativa y técnica de audio, diseño y web | Lynx Pardelle",
+      "description": "Revisa una duda específica de producción musical, audio, diseño, animación o web. Prepara una muestra de tu proyecto para explorar soluciones con Lynx Pardelle.",
+      "url": "https://servicio-asesorias.music.lynxpardelle.com/",
+      "imageAlt": "Dos personas revisan material con un teclado y una libreta."
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Asesoría creativa y técnica de audio, diseño y web | Lynx Pardelle",
+      "description": "Revisa una duda específica de producción musical, audio, diseño, animación o web. Prepara una muestra de tu proyecto para explorar soluciones con Lynx Pardelle.",
       "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/servicio-asesorias-r2-1a60d07eca1f1f32.webp"
     }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://servicio-asesorias.music.lynxpardelle.com/#webpage",
+        "name": "Asesorías creativas y técnicas",
+        "description": "Revisa una duda específica de producción musical, audio, diseño, animación o web. Prepara una muestra de tu proyecto para explorar soluciones con Lynx Pardelle.",
+        "url": "https://servicio-asesorias.music.lynxpardelle.com/",
+        "inLanguage": "es",
+        "isPartOf": {
+          "@type": "CollectionPage",
+          "name": "Servicios",
+          "url": "https://music.lynxpardelle.com/servicios"
+        },
+        "mainEntity": {
+          "@id": "https://servicio-asesorias.music.lynxpardelle.com/#contenido-de-la-oferta"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://servicio-asesorias.music.lynxpardelle.com/#contenido-de-la-oferta",
+        "name": "Asesorías creativas y técnicas",
+        "description": "Revisa una duda específica de producción musical, audio, diseño, animación o web. Prepara una muestra de tu proyecto para explorar soluciones con Lynx Pardelle.",
+        "url": "https://servicio-asesorias.music.lynxpardelle.com/",
+        "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/servicio-asesorias-r2-1a60d07eca1f1f32.webp",
+        "provider": {
+          "@id": "https://lynxpardelle.com/#person"
+        },
+        "serviceType": "Asesorías creativas y técnicas"
+      }
+    ]
   }
 }
