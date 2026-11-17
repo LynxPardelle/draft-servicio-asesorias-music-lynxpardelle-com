@@ -276,7 +276,7 @@
       "type": "text",
       "config": {
         "id": "outcome-title",
-        "text": "Objetivo del trabajo",
+        "text": "¿Qué puedes resolver en una asesoría creativa y técnica?",
         "tag": "h2",
         "styles": {
           "margin": "0",
@@ -294,7 +294,7 @@
       "type": "text",
       "config": {
         "id": "outcome-copy",
-        "text": "Criterios para decidir qué ajustar y por dónde retomar el proyecto.",
+        "text": "Revisamos una duda concreta de tu proyecto a partir del material que ya tienes. Identificamos qué conviene ajustar y qué puedes probar después.",
         "tag": "p",
         "styles": {
           "margin": "0",
@@ -728,7 +728,8 @@
         "tag": "section",
         "components": [
           "offer-contact",
-          "return-link"
+          "return-link",
+          "portfolio-reference"
         ],
         "styles": {
           "boxSizing": "border-box",
@@ -983,6 +984,22 @@
           "fontFamily": "\"Instrument Sans\", system-ui, sans-serif",
           "lineHeight": "1.6",
           "minHeight": "100vh"
+        }
+      }
+    },
+    {
+      "id": "portfolio-reference",
+      "type": "link",
+      "config": {
+        "text": "Ver el trabajo musical de Lynx Pardelle",
+        "href": "https://lynxpardelle.com/music",
+        "styles": {
+          "color": "#f6c17d",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
         }
       }
     }
