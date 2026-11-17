@@ -140,194 +140,11 @@
       }
     },
     {
-      "id": "page-heading",
-      "type": "text",
-      "config": {
-        "id": "page-heading",
-        "text": "Asesorías creativas y técnicas",
-        "tag": "h1",
-        "styles": {
-          "margin": "0",
-          "fontFamily": "\"Instrument Serif\", Georgia, serif",
-          "fontWeight": "400",
-          "lineHeight": "1",
-          "letterSpacing": "-.04em",
-          "textWrap": "balance",
-          "fontSize": "clamp(38px, 6vw, 82px)",
-          "color": "#141217",
-          "marginBlock": "9px 16px",
-          "maxWidth": "17ch"
-        }
-      }
-    },
-    {
-      "id": "hero-action",
-      "type": "link",
-      "config": {
-        "text": "Cotizar por WhatsApp",
-        "href": "https://wa.me/525522699563?text=Hola%2C%20Lynx.%20Quisiera%20consultar%20sobre%20este%20servicio%3A%20Asesor%C3%ADas%20creativas%20y%20t%C3%A9cnicas.",
-        "styles": {
-          "color": "#f7f3ea",
-          "textUnderlineOffset": "4px",
-          "minHeight": "44px",
-          "display": "inline-flex",
-          "alignItems": "center",
-          "fontWeight": "750",
-          "padding": "8px 18px",
-          "background": "#141217",
-          "textDecoration": "none",
-          "boxSizing": "border-box",
-          "borderRadius": "3px"
-        }
-      }
-    },
-    {
-      "id": "hero-details",
-      "type": "link",
-      "config": {
-        "text": "Ver el alcance",
-        "href": "#contenido-de-la-oferta",
-        "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
-          "minHeight": "44px",
-          "display": "inline-flex",
-          "alignItems": "center",
-          "fontWeight": "640"
-        }
-      }
-    },
-    {
-      "id": "hero-label",
-      "type": "text",
-      "config": {
-        "id": "hero-label",
-        "text": "Servicio · Formación",
-        "tag": "p",
-        "styles": {
-          "margin": "0",
-          "fontWeight": "760",
-          "textTransform": "uppercase",
-          "letterSpacing": ".13em",
-          "fontSize": "12px",
-          "color": "#714829"
-        }
-      }
-    },
-    {
-      "id": "hero-description",
-      "type": "text",
-      "config": {
-        "id": "hero-description",
-        "text": "Trabaja una duda concreta de un proyecto en marcha. La asesoría parte de lo que ya hiciste para revisar decisiones de producción musical, audio, diseño gráfico, animación o web.",
-        "tag": "p",
-        "styles": {
-          "margin": "0",
-          "maxWidth": "61ch",
-          "fontSize": "clamp(16px, 2vw, 21px)",
-          "lineHeight": "1.58"
-        }
-      }
-    },
-    {
-      "id": "hero-actions",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "components": [
-          "hero-action",
-          "hero-details"
-        ],
-        "styles": {
-          "display": "flex",
-          "alignItems": "center",
-          "flexWrap": "wrap",
-          "gap": "7px 18px",
-          "marginTop": "23px"
-        }
-      }
-    },
-    {
-      "id": "hero-copy",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "components": [
-          "hero-label",
-          "page-heading",
-          "hero-description",
-          "hero-actions"
-        ],
-        "styles": {
-          "minWidth": "0",
-          "position": "relative",
-          "zIndex": "1"
-        }
-      }
-    },
-    {
-      "id": "hero-art",
-      "type": "media",
-      "config": {
-        "tag": "image",
-        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-servicio-formacion.webp",
-        "alt": "Dos personas revisan notas junto a un teclado.",
-        "loading": "eager",
-        "fetchPriority": "high",
-        "decoding": "async",
-        "styles": {
-          "display": "block",
-          "width": "100%",
-          "aspectRatio": "4 / 3",
-          "objectFit": "cover",
-          "border": "1px solid #b9aa99",
-          "boxSizing": "border-box"
-        }
-      }
-    },
-    {
-      "id": "hero-frame",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "components": [
-          "hero-art",
-          "hero-copy"
-        ],
-        "styles": {
-          "boxSizing": "border-box",
-          "width": "min(100%, 1200px)",
-          "marginInline": "auto",
-          "paddingInline": "clamp(18px, 5vw, 66px)",
-          "paddingBlock": "clamp(40px, 7vw, 86px)",
-          "display": "grid",
-          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
-          "gap": "clamp(17px, 4.5vw, 58px)",
-          "alignItems": "center",
-          "minHeight": "min(620px, 70svh)"
-        }
-      }
-    },
-    {
-      "id": "hero",
-      "type": "container",
-      "config": {
-        "tag": "section",
-        "components": [
-          "hero-frame"
-        ],
-        "styles": {
-          "background": "#e9e1d5",
-          "color": "#141217"
-        }
-      }
-    },
-    {
       "id": "topic-heading-0",
       "type": "text",
       "config": {
         "id": "topic-heading-0",
-        "text": "El problema",
+        "text": "Producción musical y audio",
         "tag": "h3",
         "styles": {
           "margin": "0",
@@ -342,7 +159,7 @@
       "type": "text",
       "config": {
         "id": "topic-detail-0",
-        "text": "Identificar qué parte del proyecto se atoró y qué resultado esperas.",
+        "text": "Revisa una decisión técnica en una sesión, una grabación o una producción en marcha.",
         "tag": "p",
         "styles": {
           "margin": "0",
@@ -362,7 +179,7 @@
         ],
         "styles": {
           "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3"
+          "borderTop": "1px solid #8c4b18"
         }
       }
     },
@@ -371,7 +188,7 @@
       "type": "text",
       "config": {
         "id": "topic-heading-1",
-        "text": "La revisión",
+        "text": "Diseño y animación",
         "tag": "h3",
         "styles": {
           "margin": "0",
@@ -386,7 +203,7 @@
       "type": "text",
       "config": {
         "id": "topic-detail-1",
-        "text": "Recorrer el material disponible y valorar qué opciones encajan con tu objetivo y tus herramientas.",
+        "text": "Aterriza un problema específico de diseño o movimiento sobre el material que ya tienes.",
         "tag": "p",
         "styles": {
           "margin": "0",
@@ -406,7 +223,7 @@
         ],
         "styles": {
           "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3"
+          "borderTop": "1px solid #8c4b18"
         }
       }
     },
@@ -415,7 +232,7 @@
       "type": "text",
       "config": {
         "id": "topic-heading-2",
-        "text": "El siguiente paso",
+        "text": "Diseño y desarrollo web",
         "tag": "h3",
         "styles": {
           "margin": "0",
@@ -430,7 +247,7 @@
       "type": "text",
       "config": {
         "id": "topic-detail-2",
-        "text": "Aterrizar los cambios con mayor impacto y un orden razonable para probarlos.",
+        "text": "Ubica qué necesitas resolver en la interfaz o implementación de un sitio y qué opciones encajan con tu proyecto.",
         "tag": "p",
         "styles": {
           "margin": "0",
@@ -450,7 +267,7 @@
         ],
         "styles": {
           "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3"
+          "borderTop": "1px solid #8c4b18"
         }
       }
     },
@@ -581,7 +398,8 @@
           "activity-copy"
         ],
         "styles": {
-          "background": "#ece2d1",
+          "background": "#f7bf73",
+          "color": "#24170e",
           "padding": "clamp(19px, 3vw, 32px)",
           "alignSelf": "start"
         }
@@ -629,11 +447,241 @@
           "topic-frame"
         ],
         "styles": {
-          "color": "#141217",
-          "background": "#f7f3ea"
+          "color": "#24170e",
+          "background": "#f3e8d5"
         },
         "id": "contenido-de-la-oferta",
         "tabindex": -1
+      }
+    },
+    {
+      "id": "context-art",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-servicio-formacion.webp",
+        "alt": "Dos personas revisan notas junto a un teclado.",
+        "loading": "lazy",
+        "decoding": "async",
+        "styles": {
+          "display": "block",
+          "width": "100%",
+          "aspectRatio": "16 / 9",
+          "objectFit": "cover",
+          "maxHeight": "480px"
+        }
+      }
+    },
+    {
+      "id": "offer-context",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "context-art"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "paddingBlock": "clamp(22px, 5vw, 52px)"
+        }
+      }
+    },
+    {
+      "id": "hero-label",
+      "type": "text",
+      "config": {
+        "id": "hero-label",
+        "text": "Servicio · Formación",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "fontWeight": "760",
+          "textTransform": "uppercase",
+          "letterSpacing": ".13em",
+          "fontSize": "12px",
+          "color": "#8c4b18"
+        }
+      }
+    },
+    {
+      "id": "page-heading",
+      "type": "text",
+      "config": {
+        "id": "page-heading",
+        "text": "Asesorías creativas y técnicas",
+        "tag": "h1",
+        "styles": {
+          "margin": "0",
+          "fontFamily": "\"DM Serif Text\", Georgia, serif",
+          "fontWeight": "680",
+          "lineHeight": ".99",
+          "letterSpacing": "-.035em",
+          "textWrap": "balance",
+          "fontSize": "clamp(33px, 5.4vw, 74px)",
+          "overflowWrap": "break-word",
+          "marginBlock": "10px 15px",
+          "maxWidth": "20ch"
+        }
+      }
+    },
+    {
+      "id": "hero-description",
+      "type": "text",
+      "config": {
+        "id": "hero-description",
+        "text": "Trabaja una duda concreta de un proyecto en marcha. La asesoría parte de lo que ya hiciste para revisar decisiones de producción musical, audio, diseño gráfico, animación o web.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "52ch",
+          "fontSize": "clamp(16px, 2vw, 21px)",
+          "lineHeight": "1.58"
+        }
+      }
+    },
+    {
+      "id": "hero-action",
+      "type": "link",
+      "config": {
+        "text": "Cotizar por WhatsApp",
+        "href": "https://wa.me/525522699563?text=Hola%2C%20Lynx.%20Quisiera%20consultar%20sobre%20este%20servicio%3A%20Asesor%C3%ADas%20creativas%20y%20t%C3%A9cnicas.",
+        "styles": {
+          "color": "#24170e",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "750",
+          "padding": "8px 18px",
+          "background": "#f7bf73",
+          "textDecoration": "none",
+          "boxSizing": "border-box",
+          "borderRadius": "3px"
+        }
+      }
+    },
+    {
+      "id": "hero-details",
+      "type": "link",
+      "config": {
+        "text": "Ver el alcance",
+        "href": "#contenido-de-la-oferta",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        }
+      }
+    },
+    {
+      "id": "hero-actions",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-action",
+          "hero-details"
+        ],
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "5px 17px",
+          "marginBlockStart": "20px"
+        }
+      }
+    },
+    {
+      "id": "hero-heading",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-label",
+          "page-heading"
+        ],
+        "styles": {
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "hero-copy",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-heading",
+          "hero-description",
+          "hero-actions"
+        ],
+        "styles": {
+          "borderInlineStart": "3px solid #8c4b18",
+          "paddingInlineStart": "clamp(14px, 3vw, 38px)",
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "hero-art",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/servicio-asesorias-r2-1a60d07eca1f1f32.webp",
+        "alt": "Dos personas revisan material con un teclado y una libreta.",
+        "loading": "eager",
+        "fetchPriority": "high",
+        "decoding": "async",
+        "styles": {
+          "display": "block",
+          "width": "100%",
+          "objectFit": "cover",
+          "aspectRatio": "5 / 6",
+          "maxHeight": "510px"
+        }
+      }
+    },
+    {
+      "id": "hero-frame",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-copy",
+          "hero-art"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "paddingBlock": "clamp(40px, 7vw, 86px)",
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
+          "gap": "clamp(17px, 4.5vw, 58px)",
+          "alignItems": "end"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "components": [
+          "hero-frame"
+        ],
+        "styles": {
+          "color": "#24170e",
+          "background": "#f3e8d5",
+          "overflow": "hidden"
+        }
       }
     },
     {
@@ -662,7 +710,7 @@
       "type": "link",
       "config": {
         "text": "← Volver a servicios",
-        "href": "https://music.lynxpardelle.com/formacion/servicios",
+        "href": "https://music.lynxpardelle.com/servicios",
         "styles": {
           "color": "#f6c17d",
           "textUnderlineOffset": "4px",
@@ -736,7 +784,7 @@
       "type": "link",
       "config": {
         "text": "Servicios",
-        "href": "https://music.lynxpardelle.com/formacion/servicios",
+        "href": "https://music.lynxpardelle.com/servicios",
         "styles": {
           "color": "inherit",
           "textUnderlineOffset": "4px",
@@ -775,7 +823,7 @@
         "text": "LYNX PARDELLE",
         "href": "https://music.lynxpardelle.com/formacion",
         "styles": {
-          "color": "#f6c17d",
+          "color": "#f7bf73",
           "textUnderlineOffset": "4px",
           "minHeight": "44px",
           "display": "inline-flex",
@@ -853,7 +901,7 @@
         "text": "Proyecto musical ↗",
         "href": "https://music.lynxpardelle.com/",
         "styles": {
-          "color": "#f6c17d",
+          "color": "#f7bf73",
           "textUnderlineOffset": "4px",
           "minHeight": "44px",
           "display": "inline-flex",
@@ -911,6 +959,7 @@
         "components": [
           "hero",
           "topic-section",
+          "offer-context",
           "bio",
           "return-section"
         ],
@@ -929,7 +978,7 @@
           "site-footer"
         ],
         "styles": {
-          "background": "#141217",
+          "background": "#211b16",
           "color": "#f7f3ea",
           "fontFamily": "\"Instrument Sans\", system-ui, sans-serif",
           "lineHeight": "1.6",
